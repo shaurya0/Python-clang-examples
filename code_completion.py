@@ -32,8 +32,7 @@ def main():
     for file, (line, col) in zip(filenames, COMPLETION_LINE_COL):
         assert(os.path.exists(file))
         tu = index.parse(file, CLANG_CXXFLAGS)
-        # print_completions(tu, file, line, col)
-        print_completion_chunks(tu, file, line, col)
+        print_completions(tu, file, line, col)
 
 
 if __name__ == '__main__':
