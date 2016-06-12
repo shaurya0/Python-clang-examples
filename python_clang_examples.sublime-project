@@ -19,13 +19,6 @@
             ],
             "path": "."
         },
-        {
-			"file_include_patterns":
-			[
-				"*.py",
-			],
-			"path": "C:\\Anaconda3\\Lib\\site-packages\\libclang_py3-3.8.2-py3.5.egg\\clang"
-		},
 
 	]
 }

@@ -1,5 +1,5 @@
-import clang.cindex
 from clang_config import *
+import clang.cindex
 import os
 
 clang.cindex.Config.set_library_file(CLANG_LIBRARY_FILE)
