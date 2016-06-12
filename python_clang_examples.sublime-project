@@ -1,0 +1,31 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
+	"folders":
+	[
+		{
+            "file_include_patterns":
+            [
+                "*.py",
+                "*.gitignore",
+                "*.cpp"
+            ],
+            "path": "."
+        },
+        {
+			"file_include_patterns":
+			[
+				"*.py",
+			],
+			"path": "C:\\Anaconda3\\Lib\\site-packages\\libclang_py3-3.8.2-py3.5.egg\\clang"
+		},
+
+	]
+}
